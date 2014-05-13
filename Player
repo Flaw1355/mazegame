@@ -1,0 +1,26 @@
+	    package mazeGame;
+     
+    public class Player {
+            private int highScore;
+            private int playerLevel;
+            private int playerNumber;
+           
+            public Player(int highScore, int playerLevel, int playerNumber) {
+                    this.highScore = highScore;
+                    this.playerLevel = playerLevel;
+                    this.playerNumber = playerNumber;
+            }
+           
+            public int playerLevel() {
+                    return playerLevel;
+            }
+           
+            public int playerHighScore() {
+                    return highScore;
+            }
+           
+            public int playerNumber() {
+                    return playerNumber;
+            }
+    }
+
